@@ -1,0 +1,108 @@
+/* set defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* message box - for loading and error cases */
+
+.message_box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+}
+
+/* title div */
+
+.title_div {
+    margin: 20px 50px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+/* compare table */
+
+.compare_table {
+    overflow: scroll;
+}
+
+/* image and title row */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 50px;
+}
+
+.compare_header {
+    width: 18%;
+    min-width: 200px;
+    margin: 24px 1% 0 1%;
+}
+
+.close_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+/* show diff block  */
+
+.show_diff_block {
+    display: flex;
+    align-self: flex-end;
+    /* border: 1px solid #ccc; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.checkbox { 
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.show_diff_title {
+    font-size: 14px;
+}
+
+/* feature table */
+
+table {
+    table-layout: fixed;
+    padding: 0 20px;
+    margin: 20px 50px;
+    /* border: 1px solid #ccc; */
+    border-collapse: collapse;
+}
+
+.tabel_col {
+    width: 18%;
+    min-width: 200px;
+}
+
+th, td {
+    width: 18%;
+    text-align: left;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+}
